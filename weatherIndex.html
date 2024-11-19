@@ -1,0 +1,80 @@
+<html>
+<head>
+	<title>weather forecast</title>
+	<link rel="stylesheet" href="weatherIndex_css.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="navigation-bar">
+<div class="search">
+<p class="cname">AccurateWeather</p>
+	<form class="location-form" method="get">
+	<input type="text" id="search-location" class="search-location" placeholder="search location">
+	<button type="submit" id="submit"><i class="fas fa-search"></i></button>
+	</form>
+</div>
+
+<div class="result">
+	<p class="loc">Default location</p>
+	<section class="box1">
+		<table >
+ 		<tr>
+   			<th>Temp.</th>
+			<td class="temp">40C</td>
+			<td><i class="fa-solid fa-temperature-high"></i></td>
+
+    		</tr>
+  		<tr>   
+    			<th>Feelslike</th>
+			<td class="feelslike">40C</td>
+			<td><i class="fa-solid fa-temperature-three-quarters"></i></td>
+ 		</tr>
+		<tr>
+    			<th>Humidity</th>
+			<td class="humi">40C</td>
+			<td><i class="fas fa-tint"></i></td>
+  		</tr>
+		<tr>
+    			<th>Cond.</th>
+			<td class="cond">mist</td>
+			<td><i class="fa-solid fa-sun"></i></td>
+  		</tr>
+
+</table>
+
+	</section>	
+
+	<section class="box2">
+		<table >
+ 		<tr>
+   			<th>Wind</th>
+			<td class="wind">8km/h</td>
+			<td><i class="fa-solid fa-wind"></i></td>
+		
+    		</tr>
+  		<tr>   
+    			<th>Wind deg</th>
+			<td class="wind_deg">40&deg C</td>
+			
+ 		</tr>
+		<tr>
+    			<th>Wind dir</th>
+			<td class="wind_dir">S</td>
+			
+  		</tr>
+		<tr>
+    			<th>Cloud</th>
+			<td class="cloud">40</td>
+			
+  		</tr>
+
+</table>
+
+
+	</section>	
+
+</div>
+</div>
+<script src="weatherIndex_js.js"></script>
+</body>
+</html>
